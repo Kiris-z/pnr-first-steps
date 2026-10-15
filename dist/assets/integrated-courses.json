@@ -1,0 +1,70 @@
+{
+  "signoff": {
+    "title": "芯片签核学习室",
+    "local_entry": "signoff/index.html",
+    "source_site": "https://ic-signoff-guide.whole-ridge-3916.chatgpt.site/",
+    "lessons": [
+      [
+        "standards",
+        "什么叫“签核通过”",
+        "工艺规则、芯片规格与项目标准",
+        "验收框架"
+      ],
+      [
+        "flow",
+        "最终版本与验证流程",
+        "GDS、网表、寄生参数和报告的版本对应",
+        "验收框架"
+      ],
+      [
+        "physical",
+        "DRC、天线与密度",
+        "制造几何规则与金属填充",
+        "物理与逻辑"
+      ],
+      [
+        "lvs",
+        "LVS 与逻辑等价性",
+        "开短路、缓冲器、ECO 与 LEC",
+        "物理与逻辑"
+      ],
+      [
+        "timing",
+        "STA 与时序裕量",
+        "Setup、hold、WNS、TNS 与多角分析",
+        "性能与供电"
+      ],
+      [
+        "constraints",
+        "约束、串扰与后仿真",
+        "SDC、SI、CDC 和检查覆盖",
+        "性能与供电"
+      ],
+      [
+        "power",
+        "IR drop、EM 与功耗",
+        "电源压降、金属电迁移与可靠性",
+        "性能与供电"
+      ],
+      [
+        "reports",
+        "报告怎么看、问题怎么定位",
+        "时序、DRC 和 IR 报告的逐项导读",
+        "报告与交付"
+      ],
+      [
+        "checklist",
+        "验收清单与交付包",
+        "12 项可导出的验收核对记录",
+        "报告与交付"
+      ],
+      [
+        "practice",
+        "自测、术语与模拟芯片差异",
+        "常见误区、模拟与 RF 签核",
+        "报告与交付"
+      ]
+    ],
+    "scope": "Full local static integration, no iframe. Original sources and annotations retained."
+  }
+}

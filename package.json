@@ -1,0 +1,10 @@
+{
+  "name": "pnr-first-steps",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Chinese interactive introduction to digital chip physical design",
+  "scripts": {
+    "dev": "python3 -m http.server 8766 --bind 127.0.0.1 --directory dist",
+    "check": "node --check dist/app.js && node --check dist/workspace.js && node --check dist/signoff/app.js && node --check dist/signoff/cases.js"
+  }
+}

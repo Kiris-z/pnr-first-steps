@@ -1,0 +1,23 @@
+芯片签核学习室 · 真实案例素材来源
+
+原始截图来自 The OpenROAD Project 的 OpenROAD-flow-scripts 官方教程。
+https://openroad-flow-scripts.readthedocs.io/en/latest/tutorials/FlowTutorial.html
+https://github.com/The-OpenROAD-Project/OpenROAD-flow-scripts/tree/master/docs/tutorials/images
+
+view_violation.webp — DRC Viewer：met1 层 net51 与 net53 的 Short 属性及局部 marker。
+clock_path_update.webp — Viewing Timing Report：Ibex 的 Setup 路径和逐段详情。
+gcd_pdn_gui.webp — Power Planning And Analysis：GCD 电源网络。
+
+原图从先前已归档的布局布线课程素材复制，没有改色或修改原始像素；编号由 HTML 叠加。
+截图版权属于原始权利人；用于带来源的教学评论和导读，本站无官方背书。
+
+数据说明：
+1. DRC 截图日志为 5 个违规；教程另一次日志为 7。教程记录调整 output53 位置后重新布线，违规数为 0。不把不同截图拼成同一次实验。
+2. 时序图所选 Setup 行：Required 12.000，Arrival 13.288，Slack -1.288 ns。本站没有运行该设计，也未提供修复后的时序数据。
+3. IR 数值来自官方教程 IR Drop Analysis 的 gcd_test_vdd.tcl 示例输出；PDN 图属于另一教程步骤，不宣称两者是同一运行。
+4. 短路根因示意图为独立绘制，不按真实坐标比例，非工具截图。
+
+方法依据：
+https://openroad.readthedocs.io/en/latest/main/src/psm/README.html
+
+核对日期：2026-10-14（用户时区）。

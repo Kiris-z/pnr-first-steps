@@ -1,0 +1,6 @@
+/* Same-site course identity; original chapter and lab layouts retained. */
+:root{--navy:#183a5e;--ink:#233f62;--muted:#5b6e88;--line:#dfe7f3;--blue:#2867cf;--cyan:#397ed3;--bg:#f5f7fb}
+.topbar{background:#fff;color:#24466f;border-color:#dfe7f3}.brand{color:#24466f}.brand small{color:#6e86a5}.chip-mark{color:#2867cf}.menu{color:#2867cf}.topnav{gap:16px}.topnav a{color:#58718e}.topnav a.active{color:#2867cf}.topnav a.active:after{background:#2867cf}.topnav .course-return{color:#2867cf;font-weight:600;border-right:1px solid #dfe7f3;padding-right:16px}.search-open{color:#58718e;background:#f7f9fd;border-color:#dfe7f3}kbd{border-color:#dfe7f3}.hero{background:#183a5e}.hero .eyebrow{color:#a5d5fa}.hero .btn{background:#3f80dc;color:white;border-color:#3f80dc}
+.buffer-flow{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:20px 0}.buffer-flow>div{padding:20px;border:1px solid #dfe7f3;border-radius:8px;background:white}.buffer-flow code{display:block;white-space:normal;color:#2867cf;font-size:14px;margin:10px 0}.buffer-flow p{font-size:13px;margin:0}
+@media(max-width:1100px){.topnav{gap:10px}.topnav .course-return{padding-right:10px}}
+@media(max-width:760px){.topnav{gap:0;left:12px;right:12px}.topnav a{font-size:10px}.topnav .course-return{padding-right:8px}.buffer-flow{grid-template-columns:1fr}.hero .eyebrow{color:#a5d5fa}}

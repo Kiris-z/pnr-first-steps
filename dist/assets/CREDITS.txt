@@ -1,0 +1,46 @@
+看懂布局布线 · 素材来源与资料说明
+
+真实软件截图来源：The OpenROAD Project / OpenROAD-flow-scripts 官方教程。
+教程：https://openroad-flow-scripts.readthedocs.io/en/latest/tutorials/FlowTutorial.html
+原图目录：https://github.com/The-OpenROAD-Project/OpenROAD-flow-scripts/tree/master/docs/tutorials/images
+截图版权属于其原始权利人。本站用于带来源的教学评论与导读，未修改原图；页面编号为 HTML 叠加。本站与 OpenROAD、Cadence、Synopsys 无隶属或背书关系。
+
+逐图文件：
+- absolute_die.webp：核心区与芯片边界规划示例
+- ibex_pl_60.webp：Ibex 布局密度视图
+- ibex_final_db.webp：Ibex 布线后整体 GUI
+- view_violation.webp：DRC 短路局部 Inspector
+- with_halo.webp：设置 Halo 的宏单元布局
+- gcd_pdn_gui.webp：GCD 电源网络规划
+- ibex_clock_tree.webp：Ibex 时钟树及物理分布
+- clock_path_update.webp：时序路径与报告
+- routing_heatmap.webp：布线拥塞热力图
+
+仓库 build/run scripts 的 BSD-3-Clause 声明保留于 ORFS-SCRIPTS-LICENSE.txt；该声明明确只适用于相应脚本，不自动代表仓库各工具、平台、设计与图片的统一许可。
+
+初版阅读结构参考；后续已重新设计配色（未复制其课程正文与源代码）：
+https://ligouhei.github.io/opc-first-steps/#ai
+
+用户推荐视频（未取得字幕，未转写视频内容）：
+https://www.bilibili.com/video/BV19R4y1F7X9
+
+知识依据为 OpenROAD 官方文档、公开工具产品资料与本站独立编写的教学解释。全部交互图形和计算模型为教学示意，不是实际芯片工具的运行结果。
+
+课程工作台补充：
+视频仅通过用户主动载入的 Bilibili 原站播放器或原站链接呈现，未下载或重新托管视频。已核实的公开标题、作者、时长和来源见 course-sources.json。导学问题与 PCB 基础图解由本站独立编写，不是视频逐字转写或时间轴摘要。
+
+BGA / PCB 基础解释参考：
+https://www.ti.com/lit/ug/spruip9/spruip9.pdf
+https://resources.academic.cadence.com/pcb-layout/via-in-pad-myths-and-realities
+https://community.cadence.com/cadence_blogs_8/b/pcb/posts/add-fanouts-using-standard-via-structures
+
+新增用户推荐视频：20分钟，学透 DCDC 模块设计！含12个布局布线技巧！
+作者：嘉立创EDA；时长：20:26。
+https://www.bilibili.com/video/BV1m6ht6qELt/
+视频简介给出的资料入口：https://oshwhub.com/course-examples/project_qmgkkzeo
+仅核实公开元数据，未取得字幕；未将独立导学表述为原视频的十二条技巧。
+DCDC 独立入门图解依据：TI SNVA721A，Low Radiated EMI Layout Made SIMPLE with LM4360x and LM4600x，第2节。
+https://www.ti.com/lit/an/snva721a/snva721a.pdf
+本站 SVG 为独立绘制的同步 Buck 功能与分区示意，非制造图，非原视频或 TI 原图复制。
+
+签核与验收模块：来自同一工作区 ic-signoff-guide/dist 的完整课程，保留素材与来源说明于 signoff/assets/CREDITS.txt。集成入口、跨课程导航与统一配色由本站补充。原独立网站：https://ic-signoff-guide.whole-ridge-3916.chatgpt.site/ 。原网页未被修改。

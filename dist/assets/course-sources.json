@@ -1,0 +1,42 @@
+[
+  {
+    "bvid": "BV1opXLBTENV",
+    "title": "BGA芯片PCB布线技巧",
+    "author": "星辰大海启行",
+    "duration_seconds": 389,
+    "cid": 37053662952,
+    "scope": "PCB / BGA escape routing",
+    "source_url": "https://www.bilibili.com/video/BV1opXLBTENV/",
+    "verification": "Title, uploader, single-page listing and duration verified from public HTML initial state and pagelist. Public subtitle list was empty. No transcript retrieved."
+  },
+  {
+    "bvid": "BV19R4y1F7X9",
+    "title": "拿到新项目该如何入手",
+    "author": "皮特派",
+    "duration_seconds": 1976,
+    "cid": 1059595155,
+    "source_url": "https://www.bilibili.com/video/BV19R4y1F7X9/",
+    "verification": "Public HTML initial state title, uploader, page and duration. No transcript retrieved."
+  },
+  {
+    "bvid": "BV1Za411x7E5",
+    "title": "数字IC布局布线的基本流程",
+    "author": "皮特派",
+    "duration_seconds": 1493,
+    "cid": 1059592695,
+    "source_url": "https://www.bilibili.com/video/BV1Za411x7E5/",
+    "verification": "Verified in the public episode metadata of the original user-provided video collection. No transcript retrieved."
+  },
+  {
+    "bvid": "BV1m6ht6qELt",
+    "title": "20分钟，学透 DCDC 模块设计！含12个布局布线技巧！",
+    "author": "嘉立创EDA",
+    "duration_seconds": 1226,
+    "cid": 42134014027,
+    "scope": "PCB / DCDC power module",
+    "source_url": "https://www.bilibili.com/video/BV1m6ht6qELt/",
+    "materials_url": "https://oshwhub.com/course-examples/project_qmgkkzeo",
+    "verification": "Title, uploader, duration, single page, cid and materials URL verified from public HTML initial state. Public subtitle list was empty. No transcript retrieved. Companion Buck primer is independently written from TI SNVA721A, not a reconstruction of the twelve video tips.",
+    "primer_source": "https://www.ti.com/lit/an/snva721a/snva721a.pdf"
+  }
+]
