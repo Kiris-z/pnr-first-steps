@@ -56,3 +56,5 @@ BGA 几何实验固定圆形焊盘直径 0.35 mm、走线宽度 0.10 mm，检查
 ## GitHub Pages 自动部署
 
 推送到 `main` 后，GitHub Actions 会检查全部 JavaScript 语法，将 `dist/` 发布到 GitHub Pages；也可在 Actions 中手动运行 `Deploy GitHub Pages`。Pages 发布来源设为 GitHub Actions。无需打包、安装依赖或配置密钥。
+
+签核入口与第 1 课加入“签核检查地图”：DRC、LVS、LEC、STA、SI、密度填充、IR/EM、功耗、ERC/PERC、ESD，共 10 类可点击解释。`signoff/index.html#power/erc` 和 `#power/esd` 提供电气连接与静电保护说明；原有 12 项清单的索引和浏览器记录保持兼容。

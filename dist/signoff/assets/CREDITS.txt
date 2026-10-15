@@ -21,3 +21,8 @@ gcd_pdn_gui.webp — Power Planning And Analysis：GCD 电源网络。
 https://openroad.readthedocs.io/en/latest/main/src/psm/README.html
 
 核对日期：2026-10-14（用户时区）。
+
+签核检查地图、电气规则与静电保护补充：
+https://www.synopsys.com/glossary/what-is-programmable-electrical-rules-checking.html
+https://www.synopsys.com/implementation-and-signoff/signoff/pathfinder-sc.html
+ERC 风险例子和 ESD 路径图为独立教学说明，不是工艺检查规则或器件认证结果。

@@ -76,6 +76,7 @@
   renderPaths();
   function renderSignoff() {
     const progress=saved('signoff-v1-done',[]),done=Array.isArray(progress)?progress.filter(id=>signoffLessons.some(l=>l.id===id)):[];
+    q('#signoff-check-map').innerHTML=window.SignoffCheckMap.render('signoff/index.html');
     q('#signoff-progress').textContent='已完成 '+done.length+' / 10 节签核课程';
     q('#signoff-curriculum').innerHTML=signoffLessons.map((l,i)=>'<a class="signoff-lesson" href="signoff/index.html#'+l.id+'"><span>'+String(i+1).padStart(2,'0')+'</span><div><small>'+esc(l.group)+'</small><h3>'+esc(l.title)+'</h3><p>'+esc(l.desc)+'</p></div><b>'+(done.includes(l.id)?'✓':'→')+'</b></a>').join('');
   }
@@ -206,7 +207,7 @@
     scenes.map(s=>({kind:'截图',title:s.title,desc:s.kind,hash:'#atlas/'+s.id})),
     videoData.map(v=>({kind:'视频',title:v.title,desc:v.author+' · '+v.kind,hash:'#videos/'+v.bvid})),
     signoffLessons.map(l=>({kind:'签核进阶',title:l.title,desc:l.desc,url:'signoff/index.html#'+l.id})),
-    [{kind:'真实案例',title:'签核：短路、负裕量与电源报告',desc:'DRC、STA、IR 真实工程截图与编号解读',url:'signoff/index.html#cases'}]
+    [{kind:'签核进阶',title:'ERC 电气连接与规则',desc:'电源地、器件连接、浮空、电压域及电气过应力',url:'signoff/index.html#power/erc'},{kind:'签核进阶',title:'ESD 静电保护路径',desc:'保护结构、路径电阻、金属与过孔的瞬态电流承载',url:'signoff/index.html#power/esd'},{kind:'签核进阶',title:'签核检查地图',desc:'DRC LVS LEC STA SI 密度填充 IR drop EM 功耗 ERC ESD',url:'signoff/index.html#standards/check-map'}, {kind:'真实案例',title:'签核：短路、负裕量与电源报告',desc:'DRC、STA、IR 真实工程截图与编号解读',url:'signoff/index.html#cases'}]
   );
   let searchMatches=[];
   function search(){const text=searchInput.value.trim().toLowerCase();searchMatches=(text?searchItems.filter(i=>(i.title+' '+i.desc).toLowerCase().includes(text)):searchItems.slice(0,7)).slice(0,18);q('#search-results').innerHTML=searchMatches.length?searchMatches.map((i,n)=>'<button class="search-result" data-result="'+n+'"><span>'+i.kind+'</span><div><b>'+esc(i.title)+'</b><small>'+esc(i.desc)+'</small></div></button>').join(''):'<div class="search-empty">没有找到匹配项。可以试试“时序”“BGA”或“通孔”。</div>';}
